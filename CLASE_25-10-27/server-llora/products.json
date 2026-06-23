@@ -1,0 +1,14 @@
+[
+  {
+    "id": 243,
+    "name": "TV LG",
+    "price": 20099,
+    "active": false
+  },
+  {
+    "id": 345,
+    "name": "TV Sony",
+    "price": 3000,
+    "active": true
+  }
+]
