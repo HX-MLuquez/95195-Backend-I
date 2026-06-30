@@ -1,3 +1,21 @@
+# Semana 3: Programación Backend Avanzada
+
+## ESM - Arquitectura de trabajo - FS PROMISES (async/await)
+
+
+```bash
+-> ProductManager (o ProductDao - Conectar con la DB) 
+          -> ProductService (o ProductProvider - Lógica)
+                   -> ProductController (o ProductHandler - Controlador que maneja REQ -> RES)
+                            -> ProductRouter (rutas - url + método + función controladora)
+```
+
+
+
+
+---
+
+
 # Unidad 2: Programación Backend Avanzada
 ## Objetivos de la Clase
 
