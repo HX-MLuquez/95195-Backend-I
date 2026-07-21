@@ -1,0 +1,23 @@
+[
+  {
+    "id": "code-001",
+    "name": "Producto A",
+    "price": 10.99,
+    "description": "Descripción del producto A",
+    "active": true
+  },
+  {
+    "id": "code-002",
+    "name": "Producto B",
+    "price": 12.99,
+    "description": "Descripción del producto B",
+    "active": true
+  },
+  {
+    "id": "code-003",
+    "name": "Producto C",
+    "price": 18.99,
+    "description": "Descripción del producto C",
+    "active": false
+  }
+]
