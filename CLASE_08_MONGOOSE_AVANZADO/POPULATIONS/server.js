@@ -114,6 +114,13 @@ async function main() {
   studentConPopulate.courses.map((c) => {
     console.log(`course con populate: ${JSON.stringify(c)}`);
   });
+
+  // POPULATE + PROYECCIONES en el populate
+  const student = await Student.findById(studentId, { first_name: 1, last_name: 1, email: 1 }) // Proyección de campos del estudiante
+  .populate({
+    path: "courses.course",
+    select: "title teacher"
+  });
   // Cerrar la conexión cuando terminen las operaciones
   await mongoose.connection.close();
 }

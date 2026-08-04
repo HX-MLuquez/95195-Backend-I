@@ -150,3 +150,18 @@ app.get("/students_paginate_natural", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
+
+/*
+result = {
+  docs: [/* array de estudiantes * /],
+  totalDocs: 100,
+  limit: 10,
+  page: 1,
+  totalPages: 10,
+  hasPrevPage: false,
+  hasNextPage: true,
+  prevPage: null, 
+  nextPage: 2
+}
+
+*/
